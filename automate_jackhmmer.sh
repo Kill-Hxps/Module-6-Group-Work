@@ -1,7 +1,9 @@
 #!/bin/sh
 module load HMMER/3.3.2-gompi-2021a;
 ####
-n=2
+##number of iters
+n=1
+#p 
 p=4
 for f in $(ls Genes/*.fasta); do
 echo "Processing file: ${f}";
